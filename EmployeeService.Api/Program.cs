@@ -3,7 +3,6 @@ using Services=EmployeeService.Application.Services;
 using EmployeeService.Infrastructure.Data;
 using EmployeeService.Infrastructure.Repositories;
 using EmployeeService.Infrastructure.UnitOfWork;
-using EmployeeServiceEF_Code_First.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -18,7 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-            b => b.MigrationsAssembly("EmployeeServiceEF_Code_First")));
+            b => b.MigrationsAssembly("EmployeeService.Api")));
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();

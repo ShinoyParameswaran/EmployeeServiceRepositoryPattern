@@ -1,7 +1,7 @@
 ﻿using EmployeeService.Infrastructure.Repositories;
 using EmployeeService.Infrastructure.UnitOfWork;
 
-namespace EmployeeServiceEF_Code_First.UnitOfWork
+namespace EmployeeService.Infrastructure.UnitOfWork
 {
     public interface IUnitOfWork
     {

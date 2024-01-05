@@ -3,7 +3,7 @@ using EmployeeService.Application.DTO;
 using EmployeeService.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmployeeServiceEF_Code_First.Controllers
+namespace EmployeeService.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

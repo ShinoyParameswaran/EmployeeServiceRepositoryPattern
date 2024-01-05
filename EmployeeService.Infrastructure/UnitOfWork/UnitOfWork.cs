@@ -1,6 +1,5 @@
 ﻿using EmployeeService.Infrastructure.Data;
 using EmployeeService.Infrastructure.Repositories;
-using EmployeeServiceEF_Code_First.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeService.Infrastructure.UnitOfWork
