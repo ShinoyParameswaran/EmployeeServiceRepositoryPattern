@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeService.Application.DTO
+namespace EmployeeService.Application.Model
 {
     public class EmployeeDto
     {

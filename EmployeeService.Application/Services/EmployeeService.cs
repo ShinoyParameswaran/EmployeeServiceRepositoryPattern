@@ -1,4 +1,4 @@
-﻿using EmployeeService.Application.DTO;
+﻿using EmployeeService.Application.Model;
 using EmployeeService.Domain.Entities;
 using EmployeeService.Infrastructure.UnitOfWork;
 using System;

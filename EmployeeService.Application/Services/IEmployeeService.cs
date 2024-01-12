@@ -1,5 +1,5 @@
 ﻿
-using EmployeeService.Application.DTO;
+using EmployeeService.Application.Model;
 
 namespace EmployeeService.Application.Services
 {
