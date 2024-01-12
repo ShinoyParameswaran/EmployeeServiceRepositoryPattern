@@ -1,5 +1,5 @@
 ﻿
-using EmployeeService.Application.DTO;
+using EmployeeService.Application.Model;
 using EmployeeService.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 

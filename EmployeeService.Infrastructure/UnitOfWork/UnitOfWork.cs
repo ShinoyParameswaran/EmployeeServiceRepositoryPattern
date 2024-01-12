@@ -12,10 +12,13 @@ namespace EmployeeService.Infrastructure.UnitOfWork
         {
             _context = context;
             Employees = new EmployeeRepository(_context);
+            City = new CityRepository(_context);
+
             // Initialize other repositories.
         }
 
         public IEmployeeRepository Employees { get; }
+        public ICityRepository City { get; }
 
         public int Complete()
         {
